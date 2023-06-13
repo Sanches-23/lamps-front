@@ -1,4 +1,5 @@
 @import url('Font.css');
+@import url('Reset.css');
 
 :root {
     --color-1: #4A4A4A;

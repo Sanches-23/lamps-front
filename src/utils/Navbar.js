@@ -1,8 +1,10 @@
 import React from 'react';
 
-// import Image from "./Image";
-// import logo from "../../styles/img/logo.svg";
-// import shopping_bag from "../../styles/img/icons/shopping-bag.png";
+import Image from "./Image";
+import icon_MC from "../styles/Icons/icon-МС.svg";
+// import icon_MC from "src/styles/Icons/icon-МС.svg";
+// import icon_MC from "src/styles/Icons/icon-МС.svg";
+// import icon_MC from "src/styles/Icons/icon-МС.svg";
 
 const Navbar = () => {
     return (
@@ -10,15 +12,11 @@ const Navbar = () => {
             <div className="wrapper">
                 <div className="header__logo">
                     <a href="/" className="header__logo-link">
-
+                        <Image image={icon_MC} alt="MCQ" className="header__logo-pic"/>
                     </a>
 
-
-
                     <div className="">
-                        <a href="src/components/utils/Navbar#!" className="">
-                            {/*<Image image={shopping_bag} alt="shopping"/>*/}
-                        </a>
+
                     </div>
                     {/*<nav className="header__menu">*/}
                     {/*    <ul className="header__list">*/}

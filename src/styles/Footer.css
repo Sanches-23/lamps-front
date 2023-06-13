@@ -1,4 +1,5 @@
 @import url('Font.css');
+@import url('Reset.css');
 
 :root {
     --color-1: #4A4A4A;
@@ -64,13 +65,7 @@ body {
     transition: all .4s ease 0s;
 }
 
-.footer__item a:hover {
-    color: var(--color-9);
-}
 
-.footer__item a:active {
-    color: var(--color-2);
-}
 
 .footer__contact {
     padding-top: 70px;

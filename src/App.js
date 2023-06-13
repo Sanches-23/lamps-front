@@ -1,6 +1,5 @@
 import React from 'react';
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
-// import About from "./components/About";
 import Base from "./components/home/Base";
 import ChandeliersMain from "./components/chandeliers/ChandeliersMain";
 import ChandeliersSingleItem from "./components/chandeliers/single/ChandeliersSingleItem";
