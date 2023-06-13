@@ -1,0 +1,38 @@
+
+
+:root {
+    --color-1: #4A4A4A;
+    --color-2: #535454;
+    --color-3: #EB1D36;
+    --color-4: #6CACC0;
+    --color-5: #D6E4E5;
+    --color-6: #EFF5F5;
+    --color-7: #FDF5E5;
+}
+
+[class*="__container"] {
+    max-width: 1202px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    /*border-bottom: 2px solid var(--color-12);*/
+    /*background-color: var(--color-2);*/
+}
+
+.header__container {
+    position: relative;
+}
+
+.header__body {
+    display: flex;
+    height: 90px;
+    align-items: center;
+}
+
