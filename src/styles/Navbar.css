@@ -12,13 +12,36 @@
     --color-7: #FDF5E5;
 }
 
+body {
+    font-family: 'Montserrat Alternates', serif;
+    /*font-size: 30px;*/
+    /*line-height: 1.25;*/
+    /*background-color: var(--color-2);*/
+}
 
 
 
 
 
+/*.header {*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    z-index: 10;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    !*border-bottom: 2px solid var(--color-12);*!*/
+/*    !*background-color: var(--color-2);*!*/
+/*}*/
 
+/*.header__container {*/
+/*    position: relative;*/
+/*}*/
 
+/*.header__body {*/
+/*    display: flex;*/
+/*    height: 90px;*/
+/*    align-items: center;*/
+/*}*/
 
 
 
