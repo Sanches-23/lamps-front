@@ -1,23 +1,38 @@
 import React from 'react';
 
 import Image from "./Image";
-import icon_MC from "../styles/Icons/icon-МС.svg";
-// import icon_MC from "src/styles/Icons/icon-МС.svg";
-// import icon_MC from "src/styles/Icons/icon-МС.svg";
-// import icon_MC from "src/styles/Icons/icon-МС.svg";
+import icon_MCQ from "../styles/Icons/icon-МСQ.svg";
+import icon_basket from "../styles/Icons/icon-basket.svg";
+import icon_search from "../styles/Icons/icon-search.svg";
+
 
 const Navbar = () => {
     return (
         <header className="header">
-            <div className="wrapper">
+            <div className="header__wrapper">
                 <div className="header__logo">
                     <a href="/" className="header__logo-link">
-                        <Image image={icon_MC} alt="MCQ" className="header__logo-pic"/>
+                        <Image image={icon_MCQ} alt="MCQ" className="header__logo-pic"/>
                     </a>
+                </div>
 
+                <div className="">
+                    <button>
+
+
+                        <Image image={icon_search} alt="search" className=""/>
+                    </button>
+                </div>
+
+                <div className="">
                     <div className="">
-
+                        <a href="/#" className="">
+                            <Image image={icon_basket} alt="basket" className=""/>
+                        </a>
                     </div>
+                </div>
+
+            </div>
                     {/*<nav className="header__menu">*/}
                     {/*    <ul className="header__list">*/}
                     {/*        <li>*/}
@@ -34,8 +49,7 @@ const Navbar = () => {
                     {/*        </li>*/}
                     {/*    </ul>*/}
                     {/*</nav>*/}
-                </div>
-            </div>
+
         </header>
     );
 }

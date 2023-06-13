@@ -13,6 +13,12 @@
     --color-7: #FDF5E5;
 }
 
+[class*="__container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 body {
     font-family: 'Montserrat Alternates', serif;
     /*font-size: 30px;*/
@@ -20,29 +26,30 @@ body {
     /*background-color: var(--color-2);*/
 }
 
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    /*border-bottom: 2px solid var(--color-3);*/
+    background-color: var(--color-3);
+}
 
-
-
-
-/*.header {*/
-/*    position: fixed;*/
-/*    width: 100%;*/
-/*    z-index: 10;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    !*border-bottom: 2px solid var(--color-12);*!*/
-/*    !*background-color: var(--color-2);*!*/
-/*}*/
+.header__wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
 
 /*.header__container {*/
 /*    position: relative;*/
 /*}*/
 
-/*.header__body {*/
-/*    display: flex;*/
-/*    height: 90px;*/
-/*    align-items: center;*/
-/*}*/
+.header__body {
+    display: flex;
+    height: 90px;
+    align-items: center;
+}
 
 
 
