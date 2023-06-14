@@ -1,0 +1,64 @@
+/*@import url('Font.css');*/
+/*@import url('Reset.css');*/
+/*!*@import url('reset.css');*!*/
+/*!*@import url('slick.css');*!*/
+
+/*:root {*/
+/*    --color-1: #4A4A4A;*/
+/*    --color-2: #535454;*/
+/*    --color-3: #EB1D36;*/
+/*    --color-4: #6CACC0;*/
+/*    --color-5: #D6E4E5;*/
+/*    --color-6: #EFF5F5;*/
+/*    --color-7: #FDF5E5;*/
+/*}*/
+
+/*[class*="__container"] {*/
+/*    max-width: 1200px;*/
+/*    margin: 0 auto;*/
+/*    padding: 0 15px;*/
+/*}*/
+
+/*body {*/
+/*    font-family: 'Montserrat Alternates', serif;*/
+/*    !*font-size: 30px;*!*/
+/*    !*line-height: 1.25;*!*/
+/*    !*background-color: var(--color-2);*!*/
+/*}*/
+
+/*.header {*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    z-index: 10;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    !*border-bottom: 2px solid var(--color-3);*!*/
+/*    background-color: var(--color-3);*/
+/*}*/
+
+/*.header__wrapper{*/
+/*    display: grid;*/
+/*    grid-template-columns: auto auto auto;*/
+/*}*/
+
+/*!*.header__container {*!*/
+/*!*    position: relative;*!*/
+/*!*}*!*/
+
+/*.header__body {*/
+/*    display: flex;*/
+/*    height: 90px;*/
+/*    align-items: center;*/
+/*}*/
+
+
+
+
+/*!*background: #EB1D36;*!*/
+
+/*!*position: absolute;*!*/
+/*!*width: 1440px;*!*/
+/*!*height: 117px;*!*/
+/*!*left: 0px;*!*/
+/*!*top: 0px;*!*/
+

@@ -1,3 +1,23 @@
-.div-text{
-margin: 100px;
+@import url('Font.css');
+@import url('Reset.css');
+
+:root {
+    --color-1: #4A4A4A;
+    --color-2: #535454;
+    --color-3: #EB1D36;
+    --color-4: #6CACC0;
+    --color-5: #D6E4E5;
+    --color-6: #EFF5F5;
+    --color-7: #FDF5E5;
 }
+
+body {
+    font-family: 'Montserrat Alternates', serif;
+    /*font-size: 30px;*/
+    /*line-height: 1.25;*/
+    /*background-color: var(--color-2);*/
+}
+
+/*.div-text{*/
+/*margin: 100px;*/
+/*}*/
