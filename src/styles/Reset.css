@@ -14,7 +14,7 @@ a {
     color: inherit;
 }
 
-:focus, 
+:focus,
 :active,
 a:focus,
 a:active {
@@ -47,7 +47,7 @@ body {
     line-height: 1;
 }
 
-button, 
+button,
 input {
     font-weight: inherit;
     font-size: inherit;
