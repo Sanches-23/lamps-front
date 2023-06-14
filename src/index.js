@@ -5,13 +5,11 @@ import App from "./App";
 import './styles/Reset.css'
 import './styles/global.css'
 import './styles/Navbar.css'
+
+import './styles/HomePage.css'
+
+
 import './styles/Footer.css'
-
-
-
-
-
-
 // import './styles/HomePage.css'
 
 
