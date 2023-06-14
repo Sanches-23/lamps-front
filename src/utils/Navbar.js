@@ -19,9 +19,7 @@ const Navbar = () => {
             </button>
             <div className="header-navbar-elements">
                 <div className="header-navbar-search-input">
-                    <div className="header-search-input">
-                        <div className="header-div1">Пошук...</div>
-                    </div>
+                    <input className="header-search-input" placeholder="Пошук..." id=""/>
                     <button className="header-search-button">
                         <Image image={icon_search} alt="search" className="header-search-icon"/>
                     </button>
