@@ -1,11 +1,17 @@
 @import url('Font.css');
-@import url('Reset.css');
+
+:root {
+    /* fonts */
+    --font-montserrat-alternates: "Montserrat Alternates";
+
+    /* Colors */
+    --main: #eff5f5;
+}
 
 body {
     margin: 0;
     line-height: normal;
 }
-
 :root {
     /* fonts */
     --font-montserrat-alternates: "Montserrat Alternates";
@@ -26,7 +32,6 @@ body {
     /* border radiuses */
     --br-31xl: 50px;
 }
-
 
 
 
