@@ -100,7 +100,6 @@ const Footer = () => {
                 <div className="email">Pasechnik23.2002@gmail.com</div>
             </div>
         </footer>
-
     );
 }
 
