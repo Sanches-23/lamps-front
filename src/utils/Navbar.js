@@ -19,13 +19,16 @@ const Navbar = () => {
             </button>
             <div className="header-navbar-elements">
                 <div className="header-navbar-search-input">
-                    <input className="header-search-input" placeholder="Пошук..." id=""/>
+                    <input className="header-search-input" placeholder="Пошук..." id=""/> {/*!!!!!!!!!!!!!!!!!!!1*/}
                     <button className="header-search-button">
+
                         <Image image={icon_search} alt="search" className="header-search-icon"/>
                     </button>
                 </div>
                 <button className="">
-                    <Image image={icon_basket} alt="basket" className="header-navbar-icon-basket"/>
+                    <a href="/" className=""> {/*!!!!!!!!!!!!!!!!!!!!11*/}
+                        <Image image={icon_basket} alt="basket" className="header-navbar-icon-basket"/>
+                    </a>
                 </button>
             </div>
         </div>

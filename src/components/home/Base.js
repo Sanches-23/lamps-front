@@ -10,6 +10,8 @@ import category_icon_lamps from '../../styles/Icons/category-icon-lamps.svg'
 import category_icon_light_bulbs from '../../styles/Icons/category-icon-light-bulbs.svg'
 import category_icon_sconces from '../../styles/Icons/category-icon-sconces.svg'
 import category_icon_table_lamps from '../../styles/Icons/category-icon-table-lamps.svg'
+import icon_search from "../../styles/Icons/icon-search.svg";
+import icon_basket from "../../styles/Icons/icon-basket.svg";
 // import PromoSlider from "./PromoSlider";
 // import PromoSlider from "./PromoSlider.js";
 
@@ -24,88 +26,18 @@ class Base extends React.Component {
             //         </div>
             //     </section>
             // </div>
-            // <div className="homepage-top">
-            //     <div className="homepage-top-main">
-            //         <div className="homepage-main-banners-div">
-            //             <div className="homepage-banners-div">
-            //                 <div className="homepage-banners-big-div">
-            //                     <div className="homepage-banners-big-pic">
-            //                         <button className="homepage-banners-big-btn">
-            //                             <div className="div">До каталогу</div>
-            //                         </button>
-            //                         <button className="homepage-banners-big-arrow-btn">
-            //                             <Image image={icon_arrow_right} alt="pic" className="homepage-banners-big-arrow-icon"/>
-            //                         </button>
-            //                     </div>
-            //                     <div className="homepage-banners-big-slider-di">
-            //                         <div className="homepage-banners-big-slider">
-            //                             <div className="homepage-banners-big-slider-bt" />
-            //                             <div className="homepage-banners-big-slider-li" />
-            //                         </div>
-            //                         <div className="arrow-right-svgrepocom" />
-            //                     </div>
-            //                 </div>
-            //                 <div className="homepage-banners-small-div">
-            //                     <div className="homepage-banners-small">
-            //                         <div className="homepage-banners-small-top">
-            //                             <button className="homepage-banners-small-top-btn">
-            //                                 <div className="div1">До каталогу</div>
-            //                             </button>
-            //                         </div>
-            //                         <div className="homepage-banners-small-down">
-            //                             <button className="homepage-banners-small-top-btn">
-            //                                 <div className="div1">До каталогу</div>
-            //                             </button>
-            //                         </div>
-            //                     </div>
-            //                 </div>
-            //             </div>
-            //         </div>
-            //         <div className="homepage-category-main-div">
-            //             <div className="homepage-category-items-div">
-            //                 <div className="homepage-category-items">
-            //                     <button className="homepage-chandeliers-category">
-            //                         <Image image={category_icon_chandeliers} alt="pic" className="strokes-icon"/>
-            //                         <div className="div3">Люстри</div>
-            //                     </button>
-            //                     <button className="homepage-table-lamps-category">
-            //                         <Image image={category_icon_floor_lamps} alt="pic" className="vector-icon"/>
-            //                         <div className="div3">Настільні лампи</div>
-            //                     </button>
-            //                     <button className="homepage-floor-lamps-category">
-            //                         <Image image={category_icon_lamps} alt="pic" className="lamp-svgrepo-com-1-icon"/>
-            //                         <div className="div3">Настільні лампи</div>
-            //                     </button>
-            //                     <button className="homepage-lamps-category">
-            //                         <Image image={category_icon_light_bulbs} alt="pic" className="floor-lamp-svgrepo-com-icon"/>
-            //                         <div className="div3">Настільні лампи</div>
-            //                     </button>
-            //                     <button className="homepage-sconces-category">
-            //                         <Image image={category_icon_sconces} alt="pic" className="vector-icon1"/>
-            //                         <div className="div3">Настільні лампи</div>
-            //                     </button>
-            //                     <button className="homepage-light-bulbs-category">
-            //                         <Image image={category_icon_table_lamps} alt="pic" className="group-icon"/>
-            //                         <div className="div3">Настільні лампи</div>
-            //                     </button>
-            //                 </div>
-            //             </div>
-            //             <div className="homepage-category-title-div">
-            //                 <div className="div9">Категорії</div>
-            //             </div>
-            //         </div>
-            //     </div>
-            //     <div className="homepage-line-goods" />
-            // </div>
             <div className="homepage-experemental">
                 <div className="homepage-main-banners-div">
                     <div className="homepage-banners-div">
                         <div className="homepage-banners-big-div">
                             <div className="homepage-banners-big-pic">
-                                <button className="homepage-banners-big-btn">
-                                    <div className="div">До каталогу</div>
-                                </button>
+                                <a href="/" className="">
+                                    <button className="homepage-banners-big-btn">
+                                            <div className="div">До каталогу</div>
+                                    </button>
+                                </a>
                                 <button className="homepage-banners-big-arrow-wrapper">
+
                                     {/*<img*/}
                                     {/*    className="homepage-banners-big-arrow-icon"*/}
                                     {/*    alt=""*/}
@@ -124,14 +56,18 @@ class Base extends React.Component {
                         <div className="homepage-banners-small-div">
                             <div className="homepage-banners-small">
                                 <div className="homepage-banners-small-top">
-                                    <button className="homepage-banners-small-top-btn">
-                                        <div className="div1">До каталогу</div>
-                                    </button>
+                                    <a href="/" className="">
+                                        <button className="homepage-banners-small-top-btn">
+                                            <div className="div1">До каталогу</div>
+                                        </button>
+                                    </a>
                                 </div>
                                 <div className="homepage-banners-small-down">
-                                    <button className="homepage-banners-small-top-btn">
-                                        <div className="div1">До каталогу</div>
-                                    </button>
+                                    <a href="/" className="">
+                                       <button className="homepage-banners-small-top-btn">
+                                            <div className="div1">До каталогу</div>
+                                       </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -140,38 +76,42 @@ class Base extends React.Component {
                 <div className="homepage-category-main-div">
                     <div className="homepage-category-items-div">
                         <div className="homepage-category-items">
+                            <a href="/" className="">
                             <button className="homepage-chandeliers-category">
-                                {/*<img className="strokes-icon" alt="" src="/strokes.svg" />*/}
+                                <Image image={category_icon_chandeliers} alt="search" className="vector-icon"/>
                                 <div className="div3">Люстри</div>
                             </button>
-                            <button className="homepage-table-lamps-category">
-                                {/*<img className="vector-icon" alt="" src="/vector.svg" />*/}
+                            </a>
+                            <a href="/" className="">
+                            <button className="homepage-chandeliers-category">
+                                <Image image={category_icon_floor_lamps} alt="search" className="vector-icon"/>
                                 <div className="div3">Настільні лампи</div>
                             </button>
-                            <button className="homepage-floor-lamps-category">
-                                {/*<img*/}
-                                {/*    className="lamp-svgrepo-com-1-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/lampsvgrepocom-1.svg"*/}
-                                {/*/>*/}
+                            </a>
+                            <a href="/" className="">
+                            <button className="homepage-chandeliers-category">
+                                <Image image={category_icon_lamps} alt="search" className="vector-icon"/>
                                 <div className="div3">Настільні лампи</div>
                             </button>
-                            <button className="homepage-lamps-category">
-                                {/*<img*/}
-                                {/*    className="floor-lamp-svgrepo-com-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/floorlampsvgrepocom.svg"*/}
-                                {/*/>*/}
+                            </a>
+                            <a href="/" className="">
+                            <button className="homepage-chandeliers-category">
+                                <Image image={category_icon_table_lamps} alt="search" className="vector-icon"/>
                                 <div className="div3">Настільні лампи</div>
                             </button>
-                            <button className="homepage-sconces-category">
-                                {/*<img className="vector-icon1" alt="" src="/vector1.svg" />*/}
+                            </a>
+                            <a href="/" className="">
+                            <button className="homepage-chandeliers-category">
+                                <Image image={category_icon_sconces} alt="search" className="vector-icon"/>
                                 <div className="div3">Настільні лампи</div>
                             </button>
-                            <button className="homepage-light-bulbs-category">
-                                {/*<img className="group-icon" alt="" src="/group.svg" />*/}
+                            </a>
+                            <a href="/" className="">
+                            <button className="homepage-chandeliers-category">
+                                <Image image={category_icon_light_bulbs} alt="search" className="vector-icon"/>
                                 <div className="div3">Настільні лампи</div>
                             </button>
+                            </a>
                         </div>
                     </div>
                     <div className="homepage-category-title">
@@ -186,6 +126,9 @@ class Base extends React.Component {
                                 <div className="div10">Ціна, грн.</div>
                             </div>
                             <div className="frame-parent">
+
+                                {/*<input className="rectangle-group" placeholder="Пошук..."*/}
+                                {/*       id=""/>*/}
                                 <div className="rectangle-group">
                                     <div className="frame-inner" />
                                     <div className="div11">
@@ -203,7 +146,7 @@ class Base extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            {/*<img*/}
+                            {/*<img*/}     {/*ПОВЗУНОК*/}
                             {/*    className="homepage-goods-filter-value-di-child"*/}
                             {/*    alt=""*/}
                             {/*    src="/frame-17.svg"*/}
@@ -214,6 +157,7 @@ class Base extends React.Component {
                                 <div className="div13">Стилі</div>
                             </div>
                             <button className="arrow-right-svgrepocom1">
+                                <Image image={icon_arrow_right} alt="search" className=""/>
                                 {/*<img className="vector-icon2" alt="" src="/vector2.svg" />*/}
                             </button>
                         </div>
@@ -274,7 +218,12 @@ class Base extends React.Component {
                             </button>
                         </div>
                     </div>
+
                     <div className="homepage-goods-list">
+
+
+
+
                         <div className="homepage-goods-list-of-3-items">
                             <div className="homepage-goods-single-view">
                                 {/*<img*/}
@@ -282,6 +231,8 @@ class Base extends React.Component {
                                 {/*    alt=""*/}
                                 {/*    src="/homepage-goods-singlepic@2x.png"*/}
                                 {/*/>*/}
+                                {/*<Image image={category_icon_chandeliers} alt="search" className=""/>*/}
+
                                 <div className="homepage-goods-single-view-pri">
                                     <div className="div21">
                                         <span>{`Ціна: `}</span>
@@ -685,11 +636,9 @@ class Base extends React.Component {
                             <div className="div21">Фільтр</div>
                         </div>
                         <div className="navbar-search-input">
-                            <div className="search-input">
-                                <div className="div89">Пошук...</div>
-                            </div>
+                                <input className="header-search-input" placeholder="Пошук..." id=""/>
                             <button className="search-button">
-                                {/*<img className="search-icon" alt="" src="/searchicon.svg" />*/}
+                                <Image image={icon_search} alt="search" className="header-search-icon"/>
                             </button>
                         </div>
                     </div>
