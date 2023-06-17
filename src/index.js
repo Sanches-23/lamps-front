@@ -7,6 +7,7 @@ import './styles/global.css'
 import './styles/Navbar.css'
 
 import './styles/HomePage.css'
+import './styles/Busket.css'
 
 
 import './styles/Footer.css'

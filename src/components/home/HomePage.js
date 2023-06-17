@@ -11,12 +11,13 @@ import category_icon_light_bulbs from '../../styles/Icons/category-icon-light-bu
 import category_icon_sconces from '../../styles/Icons/category-icon-sconces.svg'
 import category_icon_table_lamps from '../../styles/Icons/category-icon-table-lamps.svg'
 import icon_search from "../../styles/Icons/icon-search.svg";
-import icon_basket from "../../styles/Icons/icon-basket.svg";
+import icon_arrow_right_grey from "../../styles/Icons/icon-arrow-right-grey.svg";
+import ChandeliersMain from "../chandeliers/ChandeliersMain";
 // import PromoSlider from "./PromoSlider";
 // import PromoSlider from "./PromoSlider.js";
 
 
-class Base extends React.Component {
+class HomePage extends React.Component {
     render() {
         return (
             // <div>
@@ -219,10 +220,9 @@ class Base extends React.Component {
                         </div>
                     </div>
 
+                    {/*<ChandeliersMain></ChandeliersMain>*/}
+
                     <div className="homepage-goods-list">
-
-
-
 
                         <div className="homepage-goods-list-of-3-items">
                             <div className="homepage-goods-single-view">
@@ -598,34 +598,24 @@ class Base extends React.Component {
                         </div>
                     </div>
                     <div className="homepage-goods-list-of-btns">
-                        <button className="homepage-goods-list-of-btns-1">
-                            <div className="div81">{`1 `}</div>
+                        <button className="homepage-goods-list-of-btns-not-applyed">  {/*homepage-goods-list-of-btns-applyed - натиснуто*/}
+                            <div className="">1</div>
                         </button>
-                        <button className="homepage-goods-list-of-btns-2">
-                            <div className="div81">2</div>
+                        <button className="homepage-goods-list-of-btns-not-applyed">
+                            <div className="">2</div>
                         </button>
-                        <button className="homepage-goods-list-of-btns-3">
-                            <div className="div83">
-                                <span className="span19">3</span>
-                                <span className="span20">{` `}</span>
-                            </div>
+                        <button className="homepage-goods-list-of-btns-not-applyed">
+                            <div className="">3</div>
                         </button>
                         <button className="homepage-goods-list-of-btns-be">
-                            <div className="div84">...</div>
+                            <div className="">...</div>
                         </button>
-                        <button className="homepage-goods-list-of-btns-4">
-                            <div className="div85">4</div>
+                        <button className="homepage-goods-list-of-btns-not-applyed">
+                            <div className="">5</div>
                         </button>
                         <button className="homepage-goods-list-of-btns-ne">
-                            <div className="div86">
-                                <span className="span19">Вперед</span>
-                                <span className="span20">{` `}</span>
-                            </div>
-                            {/*<img*/}
-                            {/*    className="arrow-right-svgrepocom-icon"*/}
-                            {/*    alt=""*/}
-                            {/*    src="/arrowright-svgrepocom.svg"*/}
-                            {/*/>*/}
+                            <div className="">Вперед</div>
+                            <Image image={icon_arrow_right_grey} alt="" className="arrow-right-svgrepocom-icon"/>
                         </button>
                     </div>
                     <div className="homepage-goods-article">
@@ -650,4 +640,4 @@ class Base extends React.Component {
     }
 }
 
-export default Base
+export default HomePage
