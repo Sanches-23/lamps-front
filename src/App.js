@@ -1,16 +1,17 @@
 import React from 'react';
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
-import Base from "./components/home/Base";
+import HomePage from "./components/home/HomePage";
 import ChandeliersMain from "./components/chandeliers/ChandeliersMain";
 import ChandeliersSingleItem from "./components/chandeliers/single/ChandeliersSingleItem";
 import Footer from "./utils/Footer";
 import ErrorPage from "./utils/ErrorPage";
 import Navbar from "./utils/Navbar";
+import OrderMain from "./components/order/OrderMain";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Base />,
+    element: <HomePage />,
     errorElement: <ErrorPage />,
   },
     {
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
     {
         path: "/chandeliers/:slug",
         element: <ChandeliersSingleItem />,
+        errorElement: <ErrorPage />,
+    },
+    {
+        path: "/order",
+        element: <OrderMain />,
         errorElement: <ErrorPage />,
     },
 ]);

@@ -1,0 +1,356 @@
+.div {
+    position: relative;
+    font-weight: 500;
+}
+.vector-icon {
+    position: absolute;
+    height: 87.5%;
+    width: 87.5%;
+    top: 6.25%;
+    right: 6.25%;
+    bottom: 6.25%;
+    left: 6.25%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.basket-close-btn-div {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    width: 21.65px;
+    height: 21.65px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.basket-article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-cadetblue-100);
+    width: 1269px;
+    height: 69px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-mid) var(--padding-8xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-1037xl);
+    font-size: 28.87px;
+    color: var(--eb1d36);
+}
+.span {
+    font-size: 29.16px;
+}
+.basket-submit-value {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.div2 {
+    position: relative;
+    font-size: 23.04px;
+    font-weight: 500;
+    font-family: var(--font-montserrat-alternates);
+    color: var(--color-whitesmoke-100);
+    text-align: left;
+}
+.basket-submit-btn,
+.basket-submit-div {
+    border: 0.5px solid var(--d9d9d9);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.basket-submit-btn {
+    cursor: pointer;
+    padding: 0;
+    background-color: var(--eb1d36);
+    border-radius: var(--br-8xs-8);
+    width: 202.52px;
+    height: 64.31px;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+.basket-submit-div {
+    position: absolute;
+    top: 510px;
+    left: 733.56px;
+    border-radius: 6.72px;
+    background-color: var(--color-gray-100);
+    width: 509.67px;
+    height: 110.38px;
+    flex-direction: row;
+    padding: var(--padding-4xl) 23.035751342773438px var(--padding-4xl)
+    37.43339157104492px;
+    justify-content: flex-start;
+    gap: var(--gap-19xl);
+    font-size: 52.49px;
+    color: var(--eb1d36);
+}
+.div3 {
+    position: absolute;
+    top: 550.51px;
+    left: 27.19px;
+    font-size: 21.65px;
+    font-weight: 500;
+}
+.basket-goods-item-pic-icon {
+    position: relative;
+    width: 69.36px;
+    height: 119.26px;
+    object-fit: cover;
+}
+.basket-goods-item-pic-div {
+    position: absolute;
+    top: 39.51px;
+    left: 27.28px;
+    border-radius: 1.92px;
+    background-color: var(--color-whitesmoke-200);
+    border: 0.3px solid var(--d9d9d9);
+    box-sizing: border-box;
+    width: 124.46px;
+    height: 124.46px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.div4 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    width: 375.02px;
+}
+.basket-goods-item-namearticle {
+    position: absolute;
+    top: 40px;
+    left: 174px;
+    height: 43px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 7.48px;
+}
+.basket-goods-item-change-left-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34.22px;
+    height: 34.22px;
+}
+.basket-goods-item-change-left-icon {
+    position: absolute;
+    top: 6.84px;
+    left: 10.84px;
+    width: 17.68px;
+    height: 14.26px;
+    overflow: hidden;
+}
+.basket-goods-item-change-left {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    width: 34.22px;
+    height: 34.22px;
+}
+.div5 {
+    position: relative;
+}
+.basket-goods-item-change-count {
+    background-color: var(--d6e4e5);
+    width: 76.43px;
+    height: 34.22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.basket-goods-item-change-right-icon {
+    position: absolute;
+    top: 7.21px;
+    left: 7.75px;
+    width: 17.68px;
+    height: 14.26px;
+    overflow: hidden;
+}
+.basket-goods-item-change-div {
+    position: absolute;
+    top: 130.75px;
+    left: 307.6px;
+    height: 34.29px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 11.41px;
+    color: var(--color-black);
+    /*font-family: var(--font-inter);*/
+}
+.div6 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    width: 41.15px;
+}
+.basket-goods-item-info-price {
+    width: 41.15px;
+    height: 16.29px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.span1 {
+    font-size: 17.14px;
+}
+.basket-goods-item-info,
+.basket-goods-item-info-value {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 30.86px;
+}
+.basket-goods-item-info {
+    position: absolute;
+    top: 113.82px;
+    left: 486.33px;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 13.72px;
+}
+.basket-goods-item-trash-btn,
+.trash-svgrepocom-icon {
+    position: absolute;
+    top: 7.31px;
+    left: 9.74px;
+    width: 24.35px;
+    height: 24.35px;
+    overflow: hidden;
+}
+.basket-goods-item-trash-btn {
+    cursor: pointer;
+    border: 0.4px solid var(--d9d9d9);
+    padding: 0;
+    background-color: var(--d6e4e5);
+    top: 39.51px;
+    left: 563.59px;
+    border-radius: 4.06px;
+    box-sizing: border-box;
+    width: 43.83px;
+    height: 39.77px;
+}
+.basket-goods-item {
+    position: relative;
+    background-color: var(--color-gray-200);
+    border: 0.4px solid var(--color-dimgray);
+    box-sizing: border-box;
+    width: 634.96px;
+    height: 206.95px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.basket-goods-item-div {
+    background-color: var(--color-white);
+    height: 206.95px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.basket-goods-item-main-div,
+.basket-goods-item-namearticle1 {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.basket-goods-item-main-div {
+    top: 69px;
+    left: 0;
+    background-color: var(--color-white);
+    flex-direction: row;
+}
+.basket-goods-item-namearticle1 {
+    top: 40px;
+    left: 174px;
+    flex-direction: column;
+    gap: 7.48px;
+}
+.basket-goods-item-change-right-icon1 {
+    position: absolute;
+    top: 6.84px;
+    left: 7.99px;
+    width: 17.68px;
+    height: 14.26px;
+    overflow: hidden;
+}
+.basket-goods-item-main-div1,
+.basket-goods-item-main-div2,
+.basket-goods-item-main-div3 {
+    position: absolute;
+    top: 69px;
+    left: 634px;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.basket-goods-item-main-div2,
+.basket-goods-item-main-div3 {
+    top: 276px;
+    left: 0;
+}
+.basket-goods-item-main-div3 {
+    left: 634px;
+}
+.basket {
+    position: relative;
+    border-radius: 9.02px;
+    background-color: var(--d6e4e5);
+    box-shadow: 0 9.022801399230957px 9.02px rgba(0, 0, 0, 0.25);
+    width: 1269px;
+    height: 648.58px;
+    overflow: hidden;
+    flex-shrink: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+.homepage-goods-copycopy {
+    position: relative;
+    background-color: var(--f5eddc);
+    width: 100%;
+    height: 727px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--padding-66xl);
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--d9d9d9);
+    font-family: var(--font-montserrat-alternates);
+}
