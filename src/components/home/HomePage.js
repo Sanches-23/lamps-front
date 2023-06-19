@@ -112,29 +112,29 @@ class HomePage extends React.Component {
                     <div className="homepage-goods-filter-div">
                         <div className="homepage-goods-filter-value-di">
                             <div className="wrapper">
-                                <div className="div10">Ціна, грн.</div>
+                                {/*<div className="div10">Ціна, грн.</div>*/}
                             </div>
-                            <div className="frame-parent">
+                            {/*<div className="frame-parent">*/}
 
-                                {/*<input className="rectangle-group" placeholder="Пошук..."*/}
-                                {/*       id=""/>*/}
-                                <div className="rectangle-group">
-                                    <div className="frame-inner" />
-                                    <div className="div11">
-                                        <span>Від</span>
-                                        <span className="span">{` `}</span>
-                                        <span className="span1">50</span>
-                                    </div>
-                                </div>
-                                <div className="rectangle-container">
-                                    <div className="frame-inner" />
-                                    <div className="div12">
-                                        <span>До</span>
-                                        <span className="span2">{` `}</span>
-                                        <span className="span1">100</span>
-                                    </div>
-                                </div>
-                            </div>
+                            {/*    /!*<input className="rectangle-group" placeholder="Пошук..."*!/*/}
+                            {/*    /!*       id=""/>*!/*/}
+                            {/*    <div className="rectangle-group">*/}
+                            {/*        <div className="frame-inner" />*/}
+                            {/*        <div className="div11">*/}
+                            {/*            <span>Від</span>*/}
+                            {/*            <span className="span">{` `}</span>*/}
+                            {/*            <span className="span1">50</span>*/}
+                            {/*        </div>*/}
+                            {/*    </div>*/}
+                            {/*    <div className="rectangle-container">*/}
+                            {/*        <div className="frame-inner" />*/}
+                            {/*        <div className="div12">*/}
+                            {/*            <span>До</span>*/}
+                            {/*            <span className="span2">{` `}</span>*/}
+                            {/*            <span className="span1">100</span>*/}
+                            {/*        </div>*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
                             {/*<img*/}     {/*ПОВЗУНОК*/}
                             {/*    className="homepage-goods-filter-value-di-child"*/}
                             {/*    alt=""*/}
@@ -150,62 +150,62 @@ class HomePage extends React.Component {
                                 {/*<img className="vector-icon2" alt="" src="/vector2.svg" />*/}
                             </button>
                         </div>
-                        <div className="homepage-goods-filter-category">
-                            <div className="container">
-                                <div className="div13">Тип приміщення</div>
-                            </div>
-                            <button className="arrow-right-svgrepocom1">
-                                {/*<img className="vector-icon2" alt="" src="/vector2.svg" />*/}
-                            </button>
-                        </div>
-                        <div className="homepage-goods-filter-category">
-                            <div className="container">
-                                <div className="div13">Колір плафонів і підвісок</div>
-                            </div>
-                            <button className="arrow-right-svgrepocom1">
-                                {/*<img className="vector-icon2" alt="" src="/vector2.svg" />*/}
-                            </button>
-                        </div>
-                        <div className="homepage-goods-filter-category">
-                            <div className="container">
-                                <div className="div13">Тип плафону</div>
-                            </div>
-                            <button className="arrow-right-svgrepocom1">
-                                {/*<img className="vector-icon2" alt="" src="/vector2.svg" />*/}
-                            </button>
-                        </div>
-                        <div className="homepage-goods-filter-category">
-                            <div className="container">
-                                <div className="div13">Кількість ламп</div>
-                            </div>
-                            <button className="arrow-right-svgrepocom1">
-                                {/*<img className="vector-icon2" alt="" src="/vector2.svg" />*/}
-                            </button>
-                        </div>
-                        <div className="homepage-goods-filter-category">
-                            <div className="container">
-                                <div className="div18">Форма світильника</div>
-                            </div>
-                            <button className="arrow-right-svgrepocom1">
-                                {/*<img className="vector-icon2" alt="" src="/vector2.svg" />*/}
-                            </button>
-                        </div>
-                        <div className="homepage-goods-filter-category">
-                            <div className="container">
-                                <div className="div18">Тип джерела світла</div>
-                            </div>
-                            <button className="arrow-right-svgrepocom1">
-                                {/*<img className="vector-icon2" alt="" src="/vector2.svg" />*/}
-                            </button>
-                        </div>
-                        <div className="homepage-goods-filter-category">
-                            <div className="container">
-                                <div className="div18">Матеріал арматури</div>
-                            </div>
-                            <button className="arrow-right-svgrepocom1">
-                                {/*<img className="vector-icon2" alt="" src="/vector2.svg" />*/}
-                            </button>
-                        </div>
+                        {/*<div className="homepage-goods-filter-category">*/}
+                        {/*    <div className="container">*/}
+                        {/*        <div className="div13">Тип приміщення</div>*/}
+                        {/*    </div>*/}
+                        {/*    <button className="arrow-right-svgrepocom1">*/}
+                        {/*        /!*<img className="vector-icon2" alt="" src="/vector2.svg" />*!/*/}
+                        {/*    </button>*/}
+                        {/*</div>*/}
+                        {/*<div className="homepage-goods-filter-category">*/}
+                        {/*    <div className="container">*/}
+                        {/*        <div className="div13">Колір плафонів і підвісок</div>*/}
+                        {/*    </div>*/}
+                        {/*    <button className="arrow-right-svgrepocom1">*/}
+                        {/*        /!*<img className="vector-icon2" alt="" src="/vector2.svg" />*!/*/}
+                        {/*    </button>*/}
+                        {/*</div>*/}
+                        {/*<div className="homepage-goods-filter-category">*/}
+                        {/*    <div className="container">*/}
+                        {/*        <div className="div13">Тип плафону</div>*/}
+                        {/*    </div>*/}
+                        {/*    <button className="arrow-right-svgrepocom1">*/}
+                        {/*        /!*<img className="vector-icon2" alt="" src="/vector2.svg" />*!/*/}
+                        {/*    </button>*/}
+                        {/*</div>*/}
+                        {/*<div className="homepage-goods-filter-category">*/}
+                        {/*    <div className="container">*/}
+                        {/*        <div className="div13">Кількість ламп</div>*/}
+                        {/*    </div>*/}
+                        {/*    <button className="arrow-right-svgrepocom1">*/}
+                        {/*        /!*<img className="vector-icon2" alt="" src="/vector2.svg" />*!/*/}
+                        {/*    </button>*/}
+                        {/*</div>*/}
+                        {/*<div className="homepage-goods-filter-category">*/}
+                        {/*    <div className="container">*/}
+                        {/*        <div className="div18">Форма світильника</div>*/}
+                        {/*    </div>*/}
+                        {/*    <button className="arrow-right-svgrepocom1">*/}
+                        {/*        /!*<img className="vector-icon2" alt="" src="/vector2.svg" />*!/*/}
+                        {/*    </button>*/}
+                        {/*</div>*/}
+                        {/*<div className="homepage-goods-filter-category">*/}
+                        {/*    <div className="container">*/}
+                        {/*        <div className="div18">Тип джерела світла</div>*/}
+                        {/*    </div>*/}
+                        {/*    <button className="arrow-right-svgrepocom1">*/}
+                        {/*        /!*<img className="vector-icon2" alt="" src="/vector2.svg" />*!/*/}
+                        {/*    </button>*/}
+                        {/*</div>*/}
+                        {/*<div className="homepage-goods-filter-category">*/}
+                        {/*    <div className="container">*/}
+                        {/*        <div className="div18">Матеріал арматури</div>*/}
+                        {/*    </div>*/}
+                        {/*    <button className="arrow-right-svgrepocom1">*/}
+                        {/*        /!*<img className="vector-icon2" alt="" src="/vector2.svg" />*!/*/}
+                        {/*    </button>*/}
+                        {/*</div>*/}
                     </div>
 
 
@@ -213,6 +213,7 @@ class HomePage extends React.Component {
                     <div className="homepage-goods-list">
 
                         <ChandeliersMain></ChandeliersMain>
+
 
 
 
@@ -589,27 +590,28 @@ class HomePage extends React.Component {
                     {/*        </div>*/}
                     {/*    </div>*/}
                     </div>
-                    <div className="homepage-goods-list-of-btns">
-                        <button className="homepage-goods-list-of-btns-not-applyed">  {/*homepage-goods-list-of-btns-applyed - натиснуто*/}
-                            <div className="">1</div>
-                        </button>
-                        <button className="homepage-goods-list-of-btns-not-applyed">
-                            <div className="">2</div>
-                        </button>
-                        <button className="homepage-goods-list-of-btns-not-applyed">
-                            <div className="">3</div>
-                        </button>
-                        <button className="homepage-goods-list-of-btns-be">
-                            <div className="">...</div>
-                        </button>
-                        <button className="homepage-goods-list-of-btns-not-applyed">
-                            <div className="">5</div>
-                        </button>
-                        <button className="homepage-goods-list-of-btns-ne">
-                            <div className="">Вперед</div>
-                            <Image image={icon_arrow_right_grey} alt="" className="arrow-right-svgrepocom-icon"/>
-                        </button>
-                    </div>
+                    {/*!!!!!!!!! на дороботці*/}
+                    {/*<div className="homepage-goods-list-of-btns">*/}
+                    {/*    <button className="homepage-goods-list-of-btns-not-applyed">  /!*homepage-goods-list-of-btns-applyed - натиснуто*!/*/}
+                    {/*        <div className="">1</div>*/}
+                    {/*    </button>*/}
+                    {/*    <button className="homepage-goods-list-of-btns-not-applyed">*/}
+                    {/*        <div className="">2</div>*/}
+                    {/*    </button>*/}
+                    {/*    <button className="homepage-goods-list-of-btns-not-applyed">*/}
+                    {/*        <div className="">3</div>*/}
+                    {/*    </button>*/}
+                    {/*    <button className="homepage-goods-list-of-btns-be">*/}
+                    {/*        <div className="">...</div>*/}
+                    {/*    </button>*/}
+                    {/*    <button className="homepage-goods-list-of-btns-not-applyed">*/}
+                    {/*        <div className="">5</div>*/}
+                    {/*    </button>*/}
+                    {/*    <button className="homepage-goods-list-of-btns-ne">*/}
+                    {/*        <div className="">Вперед</div>*/}
+                    {/*        <Image image={icon_arrow_right_grey} alt="" className="arrow-right-svgrepocom-icon"/>*/}
+                    {/*    </button>*/}
+                    {/*</div>*/}
                     <div className="homepage-goods-article">
                         <div className="div9">Товари</div>
                     </div>
