@@ -4,6 +4,7 @@ import {useAsync} from 'react-async-hook';
 import ChandeliersRelated from "./ChandeliersRelated";
 import {DefaultAPIInstance} from "../../../api";
 import Image from "../../../utils/Image";
+// import ChandeliersMain from "../ChandeliersMain";
 
 
 const fetchChandeliers = async slug =>
@@ -11,19 +12,19 @@ const fetchChandeliers = async slug =>
 
 const ChandeliersSingleItem = () => {
     let params = useParams();
-    const design = useAsync(fetchChandeliers, [params.slug]);
+    const Chandeliers = useAsync(fetchChandeliers, [params.slug]);
 
     return (
         <>{
-            design.result && (<>
+            Chandeliers.result && (<>
                 <section className="">
                     <div className="">
-                        <h1 className="">{design.result.data.title}</h1>
+                        <h1 className="">{Chandeliers.result.data.title}</h1>
                         <div className="">
                             <div className="">
-                                <Image image={design.result.data.main_photo} alt={'room'}/>
+                                <Image image={Chandeliers.result.data.main_photo} alt={'photo'}/>
                             </div>
-                            {/*{design.result.data.gallery && (design.result.data.gallery.map(item => (*/}
+                            {/*{Chandeliers.result.data.gallery && (Chandeliers.result.data.gallery.map(item => (*/}
                             {/*        <div key={item.url} className="">*/}
                             {/*            <Image image={item.url} alt={'room'}/>*/}
                             {/*        </div>*/}
@@ -35,7 +36,7 @@ const ChandeliersSingleItem = () => {
                             <div className="">
                                 <div className="">
 
-                                    {design.result.data.description.split(/\r?\n/).map(item => (
+                                    {Chandeliers.result.data.description.split(/\r?\n/).map(item => (
                                         <p key={item}>{item}</p>
                                     ))}
 
@@ -47,7 +48,7 @@ const ChandeliersSingleItem = () => {
                         </div>
                     </div>
                 </section>
-                <ChandeliersRelated related={design.result.data.related}/>
+                <ChandeliersRelated related={Chandeliers.result.data.related}/>
             </>)
         }
         </>

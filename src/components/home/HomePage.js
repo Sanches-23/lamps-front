@@ -20,13 +20,6 @@ import ChandeliersMain from "../chandeliers/ChandeliersMain";
 class HomePage extends React.Component {
     render() {
         return (
-            // <div>
-            //     <section>
-            //         <div class='div-text'>
-            //             <h1>ААААААААААААААААА</h1>
-            //         </div>
-            //     </section>
-            // </div>
             <div className="homepage-experemental">
                 <div className="homepage-main-banners-div">
                     <div className="homepage-banners-div">
@@ -38,12 +31,7 @@ class HomePage extends React.Component {
                                     </button>
                                 </a>
                                 <button className="homepage-banners-big-arrow-wrapper">
-
-                                    {/*<img*/}
-                                    {/*    className="homepage-banners-big-arrow-icon"*/}
-                                    {/*    alt=""*/}
-                                    {/*    src="/homepage-bannersbigarrow.svg"*/}
-                                    {/*/>*/}
+                                    <Image image={icon_arrow_right} alt="search" className="vector-icon"/>
                                 </button>
                             </div>
                             <div className="homepage-banners-big-slider">
@@ -220,382 +208,386 @@ class HomePage extends React.Component {
                         </div>
                     </div>
 
-                    {/*<ChandeliersMain></ChandeliersMain>*/}
+
 
                     <div className="homepage-goods-list">
 
-                        <div className="homepage-goods-list-of-3-items">
-                            <div className="homepage-goods-single-view">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic@2x.png"*/}
-                                {/*/>*/}
-                                {/*<Image image={category_icon_chandeliers} alt="search" className=""/>*/}
+                        <ChandeliersMain></ChandeliersMain>
 
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic1@2x.png"*/}
+
+
+                    {/*    <div className="homepage-goods-list-of-3-items">*/}
+                    {/*        <div className="homepage-goods-single-view">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic2@2x.png"*/}
+                    {/*            /!*<Image image={category_icon_chandeliers} alt="search" className=""/>*!/*/}
+
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic1@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                        </div>
-                        <div className="homepage-goods-list-of-3-items">
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic@2x.png"*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic2@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic1@2x.png"*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="homepage-goods-list-of-3-items">*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic2@2x.png"*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic1@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                        </div>
-                        <div className="homepage-goods-list-of-3-items">
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic@2x.png"*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic2@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic1@2x.png"*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="homepage-goods-list-of-3-items">*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic2@2x.png"*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic1@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                        </div>
-                        <div className="homepage-goods-list-of-3-items">
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic@2x.png"*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic2@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic1@2x.png"*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="homepage-goods-list-of-3-items">*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic2@2x.png"*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic1@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                        </div>
-                        <div className="homepage-goods-list-of-3-items">
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic@2x.png"*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic2@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic1@2x.png"*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="homepage-goods-list-of-3-items">*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                            <div className="homepage-goods-single-view1">
-                                {/*<img*/}
-                                {/*    className="homepage-goods-single-pic-icon"*/}
-                                {/*    alt=""*/}
-                                {/*    src="/homepage-goods-singlepic2@2x.png"*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic1@2x.png"*!/*/}
                                 {/*/>*/}
-                                <div className="homepage-goods-single-view-pri">
-                                    <div className="div21">
-                                        <span>{`Ціна: `}</span>
-                                        <span className="span4">1000 грн</span>
-                                    </div>
-                                </div>
-                                <div className="homepage-goods-single-view-nam">
-                                    <div className="homepage-goods-single-view-nam1">
-                                        <div className="div22">Товар “Назва”</div>
-                                    </div>
-                                    <div className="homepage-goods-single-view-ava">
-                                        <div className="div23">У наявності</div>
-                                    </div>
-                                </div>
-                                <button className="homepage-goods-single-view-btn">
-                                    <div className="div24">В кошик</div>
-                                </button>
-                            </div>
-                        </div>
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*        <div className="homepage-goods-single-view1">*/}
+                    {/*            /!*<img*!/*/}
+                    {/*            /!*    className="homepage-goods-single-pic-icon"*!/*/}
+                    {/*            /!*    alt=""*!/*/}
+                    {/*            /!*    src="/homepage-goods-singlepic2@2x.png"*!/*/}
+                                {/*/>*/}
+                    {/*            <div className="homepage-goods-single-view-pri">*/}
+                    {/*                <div className="div21">*/}
+                    {/*                    <span>{`Ціна: `}</span>*/}
+                    {/*                    <span className="span4">1000 грн</span>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <div className="homepage-goods-single-view-nam">*/}
+                    {/*                <div className="homepage-goods-single-view-nam1">*/}
+                    {/*                    <div className="div22">Товар “Назва”</div>*/}
+                    {/*                </div>*/}
+                    {/*                <div className="homepage-goods-single-view-ava">*/}
+                    {/*                    <div className="div23">У наявності</div>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*            <button className="homepage-goods-single-view-btn">*/}
+                    {/*                <div className="div24">В кошик</div>*/}
+                    {/*            </button>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
                     </div>
                     <div className="homepage-goods-list-of-btns">
                         <button className="homepage-goods-list-of-btns-not-applyed">  {/*homepage-goods-list-of-btns-applyed - натиснуто*/}
