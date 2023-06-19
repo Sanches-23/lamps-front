@@ -25,7 +25,11 @@ const ChandeliersMain = () => {
     return (
         <section className="">
             <ChandeliersFilter onFilterChange={makeFilter}/>
-                {Chandeliers.map(item => (<ChandeliersItem key={item.id} item={item}/>))}
+            <div id="Container">
+                <div className="homepage-goods-mix">
+                         {Chandeliers.map(item => (<ChandeliersItem key={item.id} item={item}/>))}
+                </div>
+            </div>
         </section>
     )
 }
