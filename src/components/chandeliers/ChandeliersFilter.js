@@ -10,12 +10,12 @@ class ChandeliersFilter extends React.Component {
         this.state = {
             // styles: [],
             // colors: [],
-            is_remote: [],
+            plafod_count: [],
             availability: []
         };
         // this.styleHandler = this.styleHandler.bind(this)
         // this.colorHandler = this.colorHandler.bind(this)
-        this.is_remoteHandler = this.is_remoteHandler.bind(this)
+        this.plafod_countHandler = this.plafod_countHandler.bind(this)
         this.availabilityHandler = this.availabilityHandler.bind(this)
     }
 
@@ -53,15 +53,14 @@ class ChandeliersFilter extends React.Component {
     //     }), this.handleStateChange);
     // }
 
-    async is_remoteHandler(e) {
+    async plafod_countHandler(e) {
         const name = e.target.name
         await this.setState((prevState) => ({
-            is_remote: prevState.is_remote.includes(name)
-                ? prevState.is_remote.filter((item) => item !== name)
-                : [...prevState.is_remote, name],
+            plafod_count: prevState.plafod_count.includes(name)
+                ? prevState.plafod_count.filter((item) => item !== name)
+                : [...prevState.plafod_count, name],
         }), this.handleStateChange);
     }
-
     async availabilityHandler(e) {
         const name = e.target.name
         await this.setState((prevState) => ({
@@ -81,7 +80,6 @@ class ChandeliersFilter extends React.Component {
     // }
 
      render() {
-
          return (
             <div className="">
 
@@ -93,7 +91,7 @@ class ChandeliersFilter extends React.Component {
                     </div>
                     <div className="homepage-goods-filter-category">
                         <div className="container">
-                            <div className="homepage-div13">Віддалене керування</div>
+                            <div className="homepage-div13">К-сть плафонів</div>
                         </div>
                         <button className="arrow-right-svgrepocom1">
                             <Image image={icon_arrow_right} alt="search" className=""/>
@@ -101,15 +99,14 @@ class ChandeliersFilter extends React.Component {
                     </div>
                     <ul className="show-sorting">
                         <li className="">
-                            <input type="checkbox" className="" id="true" name="true"
-                                   value="1" onClick={this.is_remoteHandler}/>
-                            <label htmlFor="true"
-                                   className="">true</label>
+                            <input type="checkbox" className="" id="plafod_count-5" name="5"
+                                   value="1" onClick={this.plafod_countHandler}/>
+                            <label htmlFor="5" className="">5</label>
                         </li>
                         <li className="">
-                            <input type="checkbox" className="" id="false" name="false"
-                                   value="2" onClick={this.is_remoteHandler}/>
-                            <label htmlFor="false" className="">false</label>
+                            <input type="checkbox" className="" id="plafod_count-9" name="9"
+                                   value="2" onClick={this.plafod_countHandler}/>
+                            <label htmlFor="9" className="">9</label>
                         </li>
                     </ul>
 
