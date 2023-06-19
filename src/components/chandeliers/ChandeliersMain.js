@@ -2,8 +2,8 @@ import React from 'react';
 import {DefaultAPIInstance} from "../../api";
 import ChandeliersItem from "./ChandeliersItem";
 import ChandeliersFilter from "./ChandeliersFilter";
-// import * as Console from "console";
-
+// import Image from "../../utils/Image";
+// import icon_arrow_right from "../../styles/Icons/icon-arrow-right.svg";
 
 const ChandeliersMain = () => {
     const [filter, setFilter] = React.useState('')
@@ -24,10 +24,15 @@ const ChandeliersMain = () => {
 
     return (
         <section className="">
+            <div className="homepage-line-goods" />
+
             <ChandeliersFilter onFilterChange={makeFilter}/>
-            <div id="Container">
-                <div className="homepage-goods-mix">
-                         {Chandeliers.map(item => (<ChandeliersItem key={item.id} item={item}/>))}
+
+            <div className="homepage-goods-list">
+                <div id="Container">
+                    <div className="homepage-goods-mix">
+                             {Chandeliers.map(item => (<ChandeliersItem key={item.id} item={item}/>))}
+                    </div>
                 </div>
             </div>
         </section>

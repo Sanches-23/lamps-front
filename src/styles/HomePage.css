@@ -501,11 +501,11 @@
     font-size: var(--font-size-xl);
 }
 .container,
-.div13 {
+.homepage-div13 {
     width: 140px;
     flex-shrink: 0;
 }
-.div13 {
+.homepage-div13 {
     position: relative;
     font-weight: 500;
     display: inline-block;

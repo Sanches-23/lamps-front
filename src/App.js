@@ -14,11 +14,11 @@ const router = createBrowserRouter([
     element: <HomePage />,
     errorElement: <ErrorPage />,
   },
-    {
-        path: "/chandeliers",
-        element: <ChandeliersMain />,
-        errorElement: <ErrorPage />,
-    },
+    // {
+    //     path: "/chandeliers",
+    //     element: <ChandeliersMain />,
+    //     errorElement: <ErrorPage />,
+    // },
     {
         path: "/chandeliers/:slug",
         element: <ChandeliersSingleItem />,
